@@ -6,17 +6,17 @@ for (var i = 1 ; i <= 20 ; i++){
 }
 
 //Decreasing multiples of 3
-for (var i = 0 ; i <=100 ; i++){
-    if (i % 3 !== 0){
+for (var i = 100 ; i >=3 ; i--){
+    if (i % 3 === 0){
         console.log(i);
     }
 }
 
 //Print the given sequence
-var i = -3.5;
-while (i < 4) {
+var i = 4;
+while (i > -4) {
     console.log(i);
-    i = i + 1.5;
+    i = i - 1.5;
 }
 
 //Sigma
